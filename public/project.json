@@ -1,0 +1,17 @@
+[
+   
+    {
+        "title": "Spectra Global",
+        "description": "The official website of Spectra Global Ltd., an award-winning forex and CFD trading platform. The site provides information on trading services (Forex, Indices, Stocks, Futures) offered via the MetaTrader 5 platform and allows users to open demo accounts. It highlights Spectra Global's features and services as a leading broker, including its range of trading instruments and secure platform.",
+        "image": "/placeholder-image.png",
+        "tags": [ "React", "SCSS" ],
+        "link": {
+            "live": "https://spectragloballtd.com",
+            "github": ""
+        },
+        "year": "2023",
+        "featured": true,
+        "madeAt": "Spectra Global Ltd"
+    }
+    
+]

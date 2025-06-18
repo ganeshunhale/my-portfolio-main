@@ -1,0 +1,54 @@
+[
+  {
+    "slug": "Cosmic-RMS",
+    "title": "Cosmic RMS",
+    "description": "A comprehensive trading platform enabling management of Net Positions, Market Watch, Order Logs, and trading strategies.",
+    "companyProject": true,
+    "companyNote": "Built for internal company use - proprietary trading system with restricted access",
+    "videoUrl": "/project/cosmic/cosmicrec.mp4",
+    "images": [
+      {
+        "url": "/project/cosmic/image.png",
+        "alt": "Dashboard Overview"
+      },
+      {
+        "url": "/project/cosmic/image2.png",
+        "alt": "Market Watch and Net Positions"
+      }
+    ],
+    "technologies": [
+      "React",
+      "Redux",
+      "Ag Grid",
+      "Chart.js",
+      "ECharts",
+      "Websockets",
+      "SCSS"
+    ],
+    "content": [
+      {
+        "title": "Overview",
+        "descriptions": [
+          "Developed a real-time Risk Management System for trading activities.",
+          "Displayed live data like net positions, market watch, and order logs using WebSocket.",
+          "Built an interactive dashboard for easy monitoring and decision-making."
+        ]
+      },
+      {
+        "title": "Features",
+        "descriptions": [
+          "Customizable dashboards with real-time analytics.",
+          "Interactive tables and dynamic data visualizations.",
+          "Real-time graphs including time series, line charts, and heatmaps.",
+          "Dynamic PDF report generation for trading insights.",
+          "Role-based UI rendering with multiple user roles."
+        ]
+      }
+    ]
+  }
+]
+
+
+
+
+
