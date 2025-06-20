@@ -45,6 +45,63 @@
         ]
       }
     ]
+  },
+  {
+    "slug": "Spectra-Global",
+    "title": "Spectra Global",
+    "description": "Official corporate website for Spectra Global Ltd., a multi-asset trading platform. Offers information about Forex, Stocks, and Futures trading through MetaTrader 5 and demo account onboarding.",
+    "companyProject": false,
+    "companyNote": "Live production site representing an international trading broker.",
+    "videoUrl": "/project/spectra/spectra.mp4",
+    "liveUrl": "https://spectragloballtd.com",
+    "githubUrl": "",
+    "images": [
+      {
+        "url": "/project/spectra/spectra.png",
+        "alt": "Spectra Global Website"
+      },
+      {
+        "url": "/project/spectra/spectra_trading_platform.png",
+        "alt": "Spectra Global Trading platform"
+      },
+      {
+        "url": "/project/spectra/spectra_mobile.png",
+        "alt": "Spectra Global mobile app"
+      }
+    ],
+    "technologies": [
+      "React.js",
+      "React Router DOM",
+      "Ant Design (AntD)",
+      "React-Bootstrap",
+      "Vite",
+      "Axios",
+      "Sass (SCSS)"
+    ],
+    "content": [
+      {
+        "title": "Overview",
+        "descriptions": [
+          "Developed the official marketing website for Spectra Global Ltd.",
+          "Provides insights into trading services such as Forex, Indices, Stocks, and Futures.",
+          "Allows users to register and open demo accounts via integrated APIs."
+        ]
+      },
+      {
+        "title": "Features",
+        "descriptions": [
+          "Responsive and SEO-friendly landing pages for services and company background.",
+          "Multiple sections for product highlights, awards, FAQs, and user guides.",
+          "Integration of user registration flow for demo account access.",
+          "Interactive UI built with Ant Design and React-Bootstrap components.",
+          "Optimized build using Vite for faster performance."
+        ]
+      }
+    ],
+   
+    "year": "2023",
+    "madeAt": "Spectra Global Ltd",
+    "featured": true
   }
 ]
 
