@@ -1,6 +1,8 @@
 import { notFound } from "next/navigation"
 import Link from "next/link"
-import { LuArrowLeft, LuGithub, LuExternalLink, LuChevronRight } from "react-icons/lu";
+import { LuArrowLeft,
+  //  LuGithub, LuExternalLink,
+    LuChevronRight } from "react-icons/lu";
 import Images from "./Images";
 import projects from "@/public/projectData.json"
 
@@ -63,7 +65,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
                 <span className="sm:hidden">Company Project</span>
               </div>
             )}
-            {projectData.githubUrl && (
+            {/* {projectData.githubUrl && (
               <Link
                 href={projectData.githubUrl}
                 target="_blank"
@@ -82,7 +84,7 @@ export default async function ProjectPage({ params }: { params: Promise<{ id: st
                 <LuExternalLink className="h-5 w-5" />
                 <span className="hidden sm:inline">Live Demo</span>
               </Link>
-            )}
+            )} */}
           </div>
         </div>
       </header>

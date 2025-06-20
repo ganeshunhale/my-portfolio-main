@@ -1,4 +1,5 @@
 "use client"
+import Image from 'next/image'
 import React, { useEffect, useState } from 'react'
 import { LuPlay } from 'react-icons/lu'
 
@@ -27,10 +28,12 @@ function Images({ images, videoUrl }: { images: imgType[], videoUrl?: string }) 
                                 <LuPlay className="h-10 w-10 text-white fill-white" />
                             </div>
                         </div>
-                        <img
+                        <Image
                             src={images[0]?.url || "/placeholder.svg?height=600&width=1200"}
                             alt="Video thumbnail"
                             className="w-full h-full object-cover"
+                            width={1920}
+                            height={1080}
                         />
                     </div>
                 ) : videoUrl ? (
@@ -47,10 +50,12 @@ function Images({ images, videoUrl }: { images: imgType[], videoUrl?: string }) 
                 {images.length > 0 && (
                     <div className="space-y-4">
                         <div className="relative aspect-video rounded-xl overflow-hidden shadow-2xl border border-gray-700">
-                            <img
+                            <Image
                                 src={activeImage || images[0].url}
                                 alt={images.find((img) => img.url === activeImage)?.alt || "Project image"}
                                 className="w-full h-full object-contain bg-gray-950"
+                                width={1920}
+                                height={1080}
                             />
                         </div>
                         <div className="flex gap-3 overflow-x-auto pb-2 snap-x">
@@ -60,7 +65,7 @@ function Images({ images, videoUrl }: { images: imgType[], videoUrl?: string }) 
                                     className={`flex-shrink-0 w-24 h-16 md:w-32 md:h-20 rounded-md overflow-hidden border-2 cursor-pointer snap-start  ${activeImage === image.url ? "border-blue-500" : "border-gray-700 hover:border-gray-500"}`}
                                     onClick={() => setActiveImage(image.url)}
                                 >
-                                    <img src={image.url} alt={image.alt} className="w-full h-full object-cover" />
+                                    <Image src={image.url} alt={image.alt} className="w-full h-full object-cover" width={320} height={180} />
                                 </div>
                             ))}
                         </div>

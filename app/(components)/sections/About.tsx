@@ -11,12 +11,12 @@ const About = () => {
                         About Me
                     </p>
                     <p className="text-muted mt-4 text-sm md:text-base max-w-2xl">
-                        Hello! My name is Ganesh, and I'm passionate about building scalable, high-performance web applications. My strengths lie in both frontend and backend development, with a strong foundation in full-stack technologies. I've worked on real-time trading platforms, dashboards, and communication tools, always focused on clean architecture and performance.
+                        Hello! My name is Ganesh, and I&apos;m passionate about building scalable, high-performance web applications. My strengths lie in both frontend and backend development, with a strong foundation in full-stack technologies. I&apos;ve worked on real-time trading platforms, dashboards, and communication tools, always focused on clean architecture and performance.
 
                       
                     </p>
                     <p className="text-muted mt-4 text-sm md:text-base max-w-2xl">
-                    I specialize in React.js and the MERN stack, and also work with Next.js to deliver modern, optimized solutions. I'm constantly exploring new technologies to grow as a developer and contribute to impactful projects.
+                    I specialize in React.js and the MERN stack, and also work with Next.js to deliver modern, optimized solutions. I&apos;m constantly exploring new technologies to grow as a developer and contribute to impactful projects.
                     </p>
                     <p className="text-primary font-semibold mt-6">Technologies I work with:</p>
                     <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mt-2">
