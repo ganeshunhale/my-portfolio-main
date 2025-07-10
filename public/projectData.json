@@ -102,7 +102,58 @@
     "year": "2023",
     "madeAt": "Spectra Global Ltd",
     "featured": true
-  }
+  },
+  {
+  "slug": "CodeThrift",
+  "title": "CodeThrift",
+  "description": "A real-time code collaboration platform enabling seamless multi-user editing via shareable URLs.",
+  "companyProject": false,
+  "companyNote": "Live production tool for browser-based code collaboration and sharing.",
+  "liveUrl": "https://codethrift.ganeshunhale.site/",
+  "githubUrl": "https://github.com/ganeshunhale/CodeThrift",
+  "images": [
+    {
+      "url": "/project/codethrift/Codethrift-homepage.png",
+      "alt": "CodeThrift Homepage"
+    },
+    {
+      "url": "/project/codethrift/codethrift_editor.png",
+      "alt": "Real-time Code Sync across Users"
+    }
+  ],
+  "technologies": [
+    "Next.js",
+    "Tailwind CSS",
+    "shadcn/ui",
+    "WebSockets",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "Vercel"
+  ],
+  "content": [
+    {
+      "title": "Overview",
+      "descriptions": [
+        "Developed a browser-based real-time code editor enabling multiple users to collaborate seamlessly.",
+        "Dynamic URLs like /filename auto-create or join documents for friction-free multi-user editing.",
+        "Optimized frontend with Next.js and Tailwind, ensuring a smooth, responsive user experience."
+      ]
+    },
+    {
+      "title": "Features",
+      "descriptions": [
+        "Real-time WebSocket sync with debounce logic for optimal server performance.",
+        "Dynamic URL routing for instant document creation and collaboration.",
+        "Interactive UI with one-click download and clipboard sharing functionality.",
+        "Backend powered by Node.js, Express, and MongoDB for persistence and socket event management."
+      ]
+    }
+  ],
+  "year": "2025",
+  "madeAt": "CodeThrift",
+  "featured": true
+}
 ]
 
 
