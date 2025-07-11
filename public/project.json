@@ -1,26 +1,53 @@
 [
    
     {
-        "title": "MeetSpace",
-        "slug": "meetspace",
-        "description": "MeetSpace is a real-time communication platform enabling browser-based video, voice calls, and screen sharing using WebRTC (PeerJS). Designed for group meetings with multi-user support and low latency peer-to-peer connectivity.",
-        "image": "/placeholder-image.png",
-        "tags": [
-          "React.js",
-          "redux",
-          "PeerJS",
-          "WebRTC",
-          "Vite",
-          "SCSS",
-          "pwa"
-        ],
-        "link": {
-          "live": "https://meet.ganeshunhale.site/",
-          "github": "https://github.com/ganeshunhale/meet"
-        },
-        "year": "2025",
-        "featured": true,
-        "madeAt": "Personal Project"
-        
-      }
+  "title": "Digital Asset Management",
+  "slug": "digital-asset-management",
+  "description": "Digital Asset Management is a full-stack web application for storing, organizing, and accessing digital files. Users can upload documents, videos, and images securely to the cloud (Cloudinary), preview them online, search by file name, and sort files by type or date. Built with a modern tech stack and designed for seamless user experience, it simplifies asset management for individuals and teams.",
+  "image": "/placeholder-image.png",
+  "tags": [
+    "React.js",
+    "Node.js",
+    "Express.js",
+    "MongoDB",
+    "MUI",
+    "Cloudinary",
+    "Multer",
+    "Vercel"
+  ],
+  "link": {
+    "live": "https://dam.ganeshunhale.site/",
+    "github": "https://github.com/ganeshunhale/Digital_Asset_Management"
+  },
+  "year": "2025",
+  "featured": true,
+  "madeAt": "Personal Project"
+},
+{
+  "title": "MysteryMessage",
+  "slug": "mysterymessage",
+  "description": "MysteryMessage is an anonymous messaging platform where users can receive messages without revealing the sender's identity. Featuring secure authentication with NextAuth (credentials and OTP verification), users can log in, view, and delete messages stored in MongoDB. The app is designed with modern UI components, seamless UX, and email delivery via Nodemailer and Resend.",
+  "image": "/placeholder-image.png",
+  "tags": [
+    "Next.js",
+    "React.js",
+    "NextAuth",
+    "MongoDB",
+    "TailwindCSS",
+    "Radix UI",
+    "Zod",
+    "Nodemailer",
+    "Resend",
+    "React Hook Form",
+    "OpenAI"
+  ],
+  "link": {
+    "github": "https://github.com/ganeshunhale/mystymessage"
+  },
+  "year": "2025",
+  "featured": true,
+  "madeAt": "Personal Project"
+}
 ]
+
+

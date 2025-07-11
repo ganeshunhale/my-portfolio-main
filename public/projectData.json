@@ -153,6 +153,60 @@
   "year": "2025",
   "madeAt": "CodeThrift",
   "featured": true
+},
+{
+  "slug": "MeetSpace",
+  "title": "MeetSpace",
+  "description": "A real-time communication platform enabling browser-based video calls, voice chats, and screen sharing using WebRTC technology.",
+  "companyProject": false,
+  "companyNote": "Live production tool for seamless group meetings and collaboration.",
+  "liveUrl": "https://meet.ganeshunhale.site/",
+  "githubUrl": "https://github.com/ganeshunhale/meet",
+  "images": [
+    {
+      "url": "/project/meetspace/meetspace-start.png",
+      "alt": "MeetSpace Video Call Interface"
+    },
+    {
+      "url": "/project/meetspace/meetspace-room-created.png",
+      "alt": "MeetSpace Screen Sharing in Action"
+    },
+    {
+      "url": "/project/meetspace/meetspace-mobile.jpg",
+      "alt": "MeetSpace Mobile view"
+    }
+  ],
+  "technologies": [
+    "React.js",
+    "Redux",
+    "PeerJS",
+    "WebRTC",
+    "Vite",
+    "SCSS",
+    "PWA"
+  ],
+  "content": [
+    {
+      "title": "Overview",
+      "descriptions": [
+        "Browser-based video conferencing app enabling real-time voice/video calls and screen sharing using WebRTC.",
+        "Low-latency peer-to-peer communication powered by PeerJS for seamless multi-user connectivity.",
+        "Optimized frontend with React, Redux, and PWA support for a smooth, responsive experience across devices."
+      ]
+    },
+    {
+      "title": "Features",
+      "descriptions": [
+        "Multi-user video and voice calls for group meetings and collaboration.",
+        "Real-time screen sharing for presentations and teamwork.",
+        "Progressive Web App (PWA) support for installation and offline capabilities.",
+        "Fast build and deployment using Vite and SCSS for modern performance."
+      ]
+    }
+  ],
+  "year": "2025",
+  "madeAt": "MeetSpace Communication Suite",
+  "featured": true
 }
 ]
 
