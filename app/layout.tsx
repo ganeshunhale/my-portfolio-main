@@ -59,6 +59,7 @@ export default function RootLayout({
         <SplashScreen/>
         {children}
         <Footer/>
+        <script src="http://localhost:5173/widget.js" data-bot-id="pub_acngsPuITksBZ10E-Zv8UggU" async></script>
       </body>
     </html>
   );
